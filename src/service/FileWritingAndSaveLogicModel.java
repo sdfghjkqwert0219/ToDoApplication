@@ -7,12 +7,12 @@ import java.io.IOException;
 import control.AskYesOrNoControl;
 import model.ToDoListModel;
 import model.ToDoModel;
-import view.messageView;
+import view.MessageView;
 
 //ファイル書き込みと保存（上書き含む）
 public class FileWritingAndSaveLogicModel {
 
-	messageView msgView = new messageView();
+	MessageView msgView = new MessageView();
 	AskYesOrNoControl ynControl = new AskYesOrNoControl();
 	
 	//書き込みと保存・上書き

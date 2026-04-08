@@ -6,8 +6,8 @@ import control.AskDoControl;
 import control.AskYesOrNoControl;
 import model.ToDoListModel;
 import model.ToDoModel;
+import view.MessageView;
 import view.SingleView;
-import view.messageView;
 
 public class ToDoLogicModel {
 	
@@ -15,7 +15,7 @@ public class ToDoLogicModel {
 	AskYesOrNoControl ynControl = new AskYesOrNoControl();
 	
 	SingleView singleView = new SingleView();
-	messageView msgView = new messageView();
+	MessageView msgView = new MessageView();
 	UsersAnswerLogic userans = new UsersAnswerLogic();
 	
 	//詳細表示

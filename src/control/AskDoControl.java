@@ -7,14 +7,14 @@ import service.ToDoListLogicModel;
 import service.ToDoLogicModel;
 import service.UsersAnswerLogic;
 import view.ListView;
+import view.MessageView;
 import view.TopView;
-import view.messageView;
 
 //操作指示受け取り
 public class AskDoControl {
 
 	UsersAnswerLogic userans = new UsersAnswerLogic();
-	messageView msgView = new messageView();
+	MessageView msgView = new MessageView();
 	AskYesOrNoControl ynControl = new AskYesOrNoControl();
 	ToDoLogicModel logicModel = new ToDoLogicModel();
 	TopView topView = new TopView();

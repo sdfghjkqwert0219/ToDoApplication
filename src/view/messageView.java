@@ -1,6 +1,6 @@
 package view;
 
-public class messageView{
+public class MessageView{
 
 	
 	public void goHomeMsg() {	
